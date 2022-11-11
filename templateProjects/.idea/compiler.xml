@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SSWAP_Service" />
+        <module name="sswap" />
+        <module name="SSWAP_Client" />
+        <module name="SW_project" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sswap" target="1.8" />
+      <module name="SSWAP_Client" target="1.8" />
+      <module name="sswap_example" target="1.5" />
+      <module name="SSWAP_Service" target="1.8" />
+      <module name="SW_project" target="1.8" />
+      <module name="tasks" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    cwm:
+        image: 'ubuntu:latest'
+        command: sh -c "apt-get update -y && apt-get install python2 -y"
+        volumes:
+        - ./cwm/:/usr/local/cwm/

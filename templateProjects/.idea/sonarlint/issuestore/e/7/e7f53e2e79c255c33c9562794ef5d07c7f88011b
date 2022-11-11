@@ -1,0 +1,21 @@
+
+p
+java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ ‘
+u
+java:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ÙÕ•úÿÿÿÿ
+p
+java:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ªİ¼
+Q
+java:S1141€"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q	java:S1259"<This block of commented-out lines of code should be removed.(çşœ¾
+V	java:S125>"<This block of commented-out lines of code should be removed.(†Ë¢µùÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "singleton".(½õ®Œúÿÿÿÿ
+A
+java:S1181…"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ
+E
+java:S2440"*Remove this instantiation of "ModelUtils".(½õ®Œúÿÿÿÿ
+I
+java:S1481".Remove this unused "singleton" local variable.(½õ®Œúÿÿÿÿ
+A
+java:S1181‚"%Catch Exception instead of Throwable.(³ŸÕ†ıÿÿÿÿ

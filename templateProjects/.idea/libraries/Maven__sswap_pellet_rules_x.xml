@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: sswap:pellet-rules:x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-rules/x/pellet-rules-x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-rules/x/pellet-rules-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-rules/x/pellet-rules-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

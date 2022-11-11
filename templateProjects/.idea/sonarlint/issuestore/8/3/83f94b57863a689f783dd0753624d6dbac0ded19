@@ -1,0 +1,35 @@
+
+p
+java:S2293ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ë®ä
+p
+java:S2293õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼«î—
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó‚ÜÀúÿÿÿÿ
+p
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸĞÿÑ
+p
+java:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯Û¢Ğ
+u
+java:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹õ•Òıÿÿÿÿ
+p
+java:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(™™¶ö
+u
+java:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹õ•Òıÿÿÿÿ
+u
+java:S2293¿"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö½›¹ûÿÿÿÿ
+
+java:S1192Ê"yDefine a constant instead of duplicating this literal "This model was created by a different API implementation" 3 times.(•°Ú™
+“
+java:S1192¶"|Define a constant instead of duplicating this literal "This document was created by a different API implementation" 4 times.(Äÿå„
+P
+java:S2864ı"4Iterate over the "entrySet" instead of the "keySet".(ğÓ—òüÿÿÿÿ
+R
+java:S2696¬"6Make the enclosing method "static" or remove this set.(Ô…“¬üÿÿÿÿ
+R
+java:S2696¯"6Make the enclosing method "static" or remove this set.(µã¥ªşÿÿÿÿ
+M
+java:S2696²"6Make the enclosing method "static" or remove this set.(âëğŒ
+R
+java:S2696µ"6Make the enclosing method "static" or remove this set.(Ô…“¬üÿÿÿÿ
+n
+java:S3776½"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ŠÙÕÇøÿÿÿÿ

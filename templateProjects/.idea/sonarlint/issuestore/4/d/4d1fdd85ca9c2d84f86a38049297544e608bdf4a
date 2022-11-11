@@ -1,0 +1,20 @@
+
+[
+java:S1192#"EDefine a constant instead of duplicating this literal "\".
+" 4 times.(ÒÑ«Ş
+f	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ùë†
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú¡Û®ûÿÿÿÿ
+b
+java:S20955"LUse try-with-resources or close this "QueryExecution" in a "finally" clause.( ÷ò¨
+p
+java:S1450"ZRemove the "queryResult" field and declare it as a local variable in the relevant methods.(Š‘‡¾
+V
+java:S1854)"@Remove this useless assignment to local variable "queryString_".(—Ùë†
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¦™Â°
+G
+java:S1481)"1Remove this unused "queryString_" local variable.(—Ùë†
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(§½òøÿÿÿÿ
+F
+java:S1905:"0Remove this unnecessary cast to "QuerySolution".(ÂÊˆ‘
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(…¢âÑûÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(áñÁ·

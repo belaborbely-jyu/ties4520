@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: sswap:pellet-datatypes:x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-datatypes/x/pellet-datatypes-x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-datatypes/x/pellet-datatypes-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/pellet-datatypes/x/pellet-datatypes-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

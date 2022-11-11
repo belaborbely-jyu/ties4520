@@ -1,0 +1,24 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(í˜ ­
+M
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+U
+java:S1161 ":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
+{
+java:S1989!"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(³æ£õùÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(ü“ñûþÿÿÿÿ
+M
+java:S1135""2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+P
+java:S1161)":Add the "@Override" annotation above this method signature(‹¨¯¿
+V	java:S125+"<This block of commented-out lines of code should be removed.(®—¨´ùÿÿÿÿ
+M
+java:S1135*"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+\
+java:S1858-"F"getParameter" returns a string, there's no need to call "toString()".(ÀØ½­
+\
+java:S1858."F"getParameter" returns a string, there's no need to call "toString()".(æ¬ÉÂ
+k
+java:S19892"PHandle the following exception that could be thrown by "getWriter": IOException.(ïô†úÿÿÿÿ
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(§™é

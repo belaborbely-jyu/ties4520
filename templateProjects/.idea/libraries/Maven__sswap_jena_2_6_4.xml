@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: sswap:jena:2.6.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jena/2.6.4/jena-2.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jena/2.6.4/jena-2.6.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jena/2.6.4/jena-2.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

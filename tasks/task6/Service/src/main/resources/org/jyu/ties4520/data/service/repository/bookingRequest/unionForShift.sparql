@@ -1,0 +1,24 @@
+    UNION
+    {
+        ?cottage a accomodation:Cottage .
+        BIND("${startInfo}"^^xsd:date AS ?startDate) .
+        BIND("${endInfo}"^^xsd:date AS ?endDate) .
+        ?cottage accomodation:hasPlaces ?hasPlaces . 
+        ?cottage accomodation:hasBedrooms ?hasBedrooms . 
+        ?cottage accomodation:hasDistanceFromTheLake ?hasDistanceFromTheLake . 
+        ?cottage accomodation:hasDistanceToCity ?hasDistanceToCity . 
+        ?cottage accomodation:hasClosestCity ?hasClosestCity . 
+        FILTER(?hasPlaces>="${hasPlaces}"^^xsd:int) .
+        FILTER(?hasBedrooms>="${hasBedrooms}"^^xsd:int) .
+        FILTER(?hasDistanceFromTheLake<="${hasDistanceFromTheLake}"^^xsd:int) .
+        FILTER(?hasDistanceToCity<="${hasDistanceToCity}"^^xsd:float) .
+        FILTER regex(?hasClosestCity, "${hasClosestCity}", "i") .
+        FILTER NOT EXISTS {
+            ?cottage a accomodation:Cottage .
+            ?booking a accomodation:Booking .
+            ?booking accomodation:hasCottage ?cottage .
+            ?booking accomodation:hasStartDate ?start .
+            ?booking accomodation:hasEndDate ?end .
+            FILTER(?start<=?endDate && ?startDate<=?end) .
+        }
+    }

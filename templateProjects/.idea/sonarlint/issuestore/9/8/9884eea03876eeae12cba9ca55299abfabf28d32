@@ -1,0 +1,40 @@
+
+K
+java:S3740ß"/Provide the parametrized type for this generic.(¥úùÕúÿÿÿÿ
+o
+java:S2293M"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á·œ
+p
+java:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(óßéá
+p
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(óßéá
+u
+java:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(ØäÚÈşÿÿÿÿ
+p
+java:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡©Äç
+p
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(İšá
+w
+java:S1488Œ"`Immediately return this expression instead of assigning it to the temporary variable "aManager".(óØ›×
+z
+java:S1488´"^Immediately return this expression instead of assigning it to the temporary variable "result".(°»ºƒøÿÿÿÿ
+v
+java:S1149Ã"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‡ºÀ¦
+f
+java:S3252N"PUse static access with "com.clarkparsia.empire.config.ConfigKeys" for "FACTORY".(ÏøËÆ
+n
+java:S3776š"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Òùÿÿÿÿ
+A
+java:S1181¾"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+N
+java:S1135õ"2Complete the task associated to this TODO comment.(ì‘ˆÑùÿÿÿÿ
+Y
+java:S1854ş"=Remove this useless assignment to local variable "rdfsClass".(˜µœÓûÿÿÿÿ
+J
+java:S1481ş".Remove this unused "rdfsClass" local variable.(˜µœÓûÿÿÿÿ
+R	java:S125€"<This block of commented-out lines of code should be removed.(³è
+`
+java:S4201"IRemove this unnecessary null check; "instanceof" returns false for nulls.(à§«í
+N
+java:S1135Ş"2Complete the task associated to this TODO comment.(ÓşŞ©üÿÿÿÿ
+\
+java:S1128."FRemove this unused import 'com.complexible.common.util.PrefixMapping'.(ıè»

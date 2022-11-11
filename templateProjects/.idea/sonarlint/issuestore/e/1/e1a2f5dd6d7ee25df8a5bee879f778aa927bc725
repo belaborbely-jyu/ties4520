@@ -1,0 +1,49 @@
+
+|
+java:S1488]"_Immediately return this expression instead of assigning it to the temporary variable "subject".(Š£­ı8ùĞÙÿÛ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(í˜ ­
+h
+java:S22597"FA "NullPointerException" could be thrown; "response" is nullable here.(°ôéŸúÿÿÿÿ8¶ÒÙÿÛ0
+c
+java:S2259F"AA "NullPointerException" could be thrown; "rdg" is nullable here.(¡‚˜¡üÿÿÿÿ8³ÒÙÿÛ0
+g
+java:S2583—"DChange this condition so that it does not always evaluate to "false"(ÜˆÜúÿÿÿÿ8·ÒÙÿÛ0
+p
+java:S1450"ZRemove the "queryResult" field and declare it as a local variable in the relevant methods.(Š‘‡¾
+o
+java:S1450"YRemove the "serviceUrl" field and declare it as a local variable in the relevant methods.(èÄÂÒ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(™Û¶
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(º¤‚—
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(™Û¶
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(Òƒ¥ì
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÑÜ†™
+f
+java:S2147;"DCombine this catch with the one at line 56, which has the same body.(¨ğÜ¼ùÿÿÿÿ8ÌÒÙÿÛ0
+a
+java:S2147A"DCombine this catch with the one at line 62, which has the same body.(ï­£Ä8ÍÒÙÿÛ0
+T
+java:S11359"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÒÒÙÿÛ0
+T
+java:S1135<"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÔÒÙÿÛ0
+T
+java:S1135?"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÕÒÙÿÛ0
+T
+java:S1135B"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÖÒÙÿÛ0
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(Œäì
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ÔãÖüÿÿÿÿ
+T
+java:S1135S"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ÚÒÙÿÛ0
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(äµò°úÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(„‹ÃÊ
+Z	java:S106m"9Replace this use of System.out or System.err by a logger.(îò¤åúÿÿÿÿ8åÒÙÿÛ0
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8çÒÙÿÛ0
+U	java:S106|"9Replace this use of System.out or System.err by a logger.(ëÍ¾´8èÒÙÿÛ0
+Z	java:S106}"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8éÒÙÿÛ0
+[	java:S106”"9Replace this use of System.out or System.err by a logger.(ŸÜİûÿÿÿÿ8îÒÙÿÛ0
+[	java:S106«"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8ôÒÙÿÛ0
+V	java:S106¬"9Replace this use of System.out or System.err by a logger.(»’®ã8õÒÙÿÛ0
+[	java:S106­"9Replace this use of System.out or System.err by a logger.(”ôÙŸúÿÿÿÿ8õÒÙÿÛ0
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(ò“úşÿÿÿÿ8øÒÙÿÛ0
+[	java:S106¼"9Replace this use of System.out or System.err by a logger.(ŸÜİûÿÿÿÿ8üÒÙÿÛ0

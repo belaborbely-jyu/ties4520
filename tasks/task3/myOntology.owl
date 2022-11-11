@@ -1,0 +1,234 @@
+@prefix : <http://www.semanticweb.org/bela/ontologies/ties4520_task3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/bela/ontologies/ties4520_task3> .
+
+<http://www.semanticweb.org/bela/ontologies/ties4520_task3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain owl:Thing ;
+                      rdfs:range <https://mypage.me/myOntologies/myOntology.owl#Element> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasFunction
+<https://mypage.me/myOntologies/myOntology.owl#hasFunction> rdf:type owl:ObjectProperty ;
+                                                            rdfs:subPropertyOf owl:topObjectProperty ;
+                                                            rdfs:domain owl:Thing ;
+                                                            rdfs:range <https://mypage.me/myOntologies/myOntology.owl#Function> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasPart
+<https://mypage.me/myOntologies/myOntology.owl#hasPart> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain owl:Thing ;
+                                                        rdfs:range [ rdf:type owl:Class ;
+                                                                     owl:unionOf ( <https://mypage.me/myOntologies/myOntology.owl#Component>
+                                                                                   <https://mypage.me/myOntologies/myOntology.owl#Element>
+                                                                                   <https://mypage.me/myOntologies/myOntology.owl#System>
+                                                                                 )
+                                                                   ] .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasSubSystem
+<https://mypage.me/myOntologies/myOntology.owl#hasSubSystem> rdf:type owl:ObjectProperty ;
+                                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                                             rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#System> ;
+                                                             rdfs:range <https://mypage.me/myOntologies/myOntology.owl#System> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasSuperSystem
+<https://mypage.me/myOntologies/myOntology.owl#hasSuperSystem> rdf:type owl:ObjectProperty ;
+                                                               rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#System> ;
+                                                               rdfs:range <https://mypage.me/myOntologies/myOntology.owl#System> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#useInformationSystem
+<https://mypage.me/myOntologies/myOntology.owl#useInformationSystem> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasComplexityLevel
+<https://mypage.me/myOntologies/myOntology.owl#hasComplexityLevel> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf owl:topDataProperty ;
+                                                                   rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#System> ;
+                                                                   rdfs:range xsd:int .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasDeveloper
+<https://mypage.me/myOntologies/myOntology.owl#hasDeveloper> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasGranularityLevel
+<https://mypage.me/myOntologies/myOntology.owl#hasGranularityLevel> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf owl:topDataProperty ;
+                                                                    rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#System> ;
+                                                                    rdfs:range xsd:int .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasVendor
+<https://mypage.me/myOntologies/myOntology.owl#hasVendor> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf owl:topDataProperty ;
+                                                          rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#ComputerSystem> ;
+                                                          rdfs:range xsd:string .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#hasVersionNumber
+<https://mypage.me/myOntologies/myOntology.owl#hasVersionNumber> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:domain <https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystem> ;
+                                                                 rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://mypage.me/myOntologies/myOntology.owl#Component
+<https://mypage.me/myOntologies/myOntology.owl#Component> rdf:type owl:Class .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystem
+<https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystem> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> ;
+                                                                               owl:disjointWith <https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystemComponent
+<https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystemComponent> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> ;
+                                                                                        owl:disjointUnionOf ( <https://mypage.me/myOntologies/myOntology.owl#Data>
+                                                                                                              <https://mypage.me/myOntologies/myOntology.owl#Hardware>
+                                                                                                              <https://mypage.me/myOntologies/myOntology.owl#Network>
+                                                                                                              <https://mypage.me/myOntologies/myOntology.owl#People>
+                                                                                                              <https://mypage.me/myOntologies/myOntology.owl#Procedure>
+                                                                                                              <https://mypage.me/myOntologies/myOntology.owl#Software>
+                                                                                                            ) .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#ComputerSystem
+<https://mypage.me/myOntologies/myOntology.owl#ComputerSystem> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#System> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Data
+<https://mypage.me/myOntologies/myOntology.owl#Data> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#DecisionSupportSystem
+<https://mypage.me/myOntologies/myOntology.owl#DecisionSupportSystem> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#DigitalMap
+<https://mypage.me/myOntologies/myOntology.owl#DigitalMap> rdf:type owl:Class ;
+                                                           owl:equivalentClass [ owl:intersectionOf ( <https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystem>
+                                                                                                      <https://mypage.me/myOntologies/myOntology.owl#GeographicInformationSystem>
+                                                                                                    ) ;
+                                                                                 rdf:type owl:Class
+                                                                               ] ;
+                                                           rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#ComputerBasedInformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Element
+<https://mypage.me/myOntologies/myOntology.owl#Element> rdf:type owl:Class .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Enterprise
+<https://mypage.me/myOntologies/myOntology.owl#Enterprise> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Organisation> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#EnterpriseResourcePlanningSystem
+<https://mypage.me/myOntologies/myOntology.owl#EnterpriseResourcePlanningSystem> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#ExpertSystem
+<https://mypage.me/myOntologies/myOntology.owl#ExpertSystem> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Function
+<https://mypage.me/myOntologies/myOntology.owl#Function> rdf:type owl:Class .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#GeographicInformationSystem
+<https://mypage.me/myOntologies/myOntology.owl#GeographicInformationSystem> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Hardware
+<https://mypage.me/myOntologies/myOntology.owl#Hardware> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#InformationSystem
+<https://mypage.me/myOntologies/myOntology.owl#InformationSystem> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#System> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#LibraryCardCatalogSystem
+<https://mypage.me/myOntologies/myOntology.owl#LibraryCardCatalogSystem> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Network
+<https://mypage.me/myOntologies/myOntology.owl#Network> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem
+<https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#InformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Organisation
+<https://mypage.me/myOntologies/myOntology.owl#Organisation> rdf:type owl:Class .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#PaperMap
+<https://mypage.me/myOntologies/myOntology.owl#PaperMap> rdf:type owl:Class ;
+                                                         owl:equivalentClass [ owl:intersectionOf ( <https://mypage.me/myOntologies/myOntology.owl#GeographicInformationSystem>
+                                                                                                    <https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem>
+                                                                                                  ) ;
+                                                                               rdf:type owl:Class
+                                                                             ] ;
+                                                         rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#NonComputerBasedInformationSystem> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#People
+<https://mypage.me/myOntologies/myOntology.owl#People> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Procedure
+<https://mypage.me/myOntologies/myOntology.owl#Procedure> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#Software
+<https://mypage.me/myOntologies/myOntology.owl#Software> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <https://mypage.me/myOntologies/myOntology.owl#Component> .
+
+
+###  https://mypage.me/myOntologies/myOntology.owl#System
+<https://mypage.me/myOntologies/myOntology.owl#System> rdf:type owl:Class ;
+                                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty <https://mypage.me/myOntologies/myOntology.owl#hasFunction> ;
+                                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                             owl:onClass <https://mypage.me/myOntologies/myOntology.owl#Function>
+                                                                           ] .
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

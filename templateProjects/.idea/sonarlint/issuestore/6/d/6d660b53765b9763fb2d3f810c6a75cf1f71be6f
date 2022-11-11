@@ -1,0 +1,84 @@
+
+p
+java:S2293µ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ¸Ûş
+u
+java:S2293¶"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œ÷ùÿÿÿÿÿ
+p
+java:S2293·"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞÙä·
+u
+java:S2293¸"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ±³ˆúÿÿÿÿ
+o
+java:S2293¹"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü¦¬
+u
+java:S2293º"YReplace the type specification in this constructor call with the diamond operator ("<>").(¹‘£“ùÿÿÿÿ
+p
+java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Âïºô
+u
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(²º€Óøÿÿÿÿ
+u
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤ˆ…åûÿÿÿÿ
+u
+java:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(µÓ‘€ÿÿÿÿÿ
+u
+java:S2293ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î¾‰†üÿÿÿÿ
+y
+java:S1192º"]Define a constant instead of duplicating this literal "Not a valid (absolute) URI: " 5 times.(ğ¯†ûÿÿÿÿ
+x
+java:S1488š"\Immediately return this expression instead of assigning it to the temporary variable "list".(²º€Óøÿÿÿÿ
+F
+java:S5411ª"*Use the primitive boolean expression here.(İ—ªûÿÿÿÿ
+j
+java:S3824ô"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(…üƒáøÿÿÿÿ
+e
+java:S3824Î"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ş—æ‘
+j
+java:S3824Ş"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ÙÓ„²şÿÿÿÿ
+j
+java:S3824·"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(©ÍÁÈüÿÿÿÿ
+U
+java:S3516æ"9Refactor this method to not always return the same value.(›ÎÌçıÿÿÿÿ
+U
+java:S5993³"9Change the visibility of this constructor to "protected".(×÷ÇÂùÿÿÿÿ
+[
+java:S1117Š"DRename "dependentModels" which hides the field declared at line 134.(øï¨
+P
+java:S1117 "9Rename "model" which hides the field declared at line 97.(‚ÓÇ™
+Q
+java:S1161”":Add the "@Override" annotation above this method signature(Ùã¢Ì
+X
+java:S1117®"ARename "entityManager" which hides the field declared at line 92.(¨¾éø
+P
+java:S1117¯"9Rename "model" which hides the field declared at line 97.(½°§
+X
+java:S1117Í"ARename "entityManager" which hides the field declared at line 92.(à¼ï‘
+V
+java:S1161æ":Add the "@Override" annotation above this method signature(›ÎÌçıÿÿÿÿ
+Q
+java:S1161ü":Add the "@Override" annotation above this method signature(µªƒ¼
+P
+java:S1117"9Rename "model" which hides the field declared at line 97.(‘¾Ÿ§
+R	java:S125š"<This block of commented-out lines of code should be removed.(æËîœ
+V
+java:S1854Ê":Remove this useless assignment to local variable "result".(Ü—™óüÿÿÿÿ
+`
+java:S1117†"DRename "dependentModels" which hides the field declared at line 134.(µÓ‘€ÿÿÿÿÿ
+;
+java:S1168Í"$Return an empty map instead of null.(¥¹ï
+Q
+java:S1161ş":Add the "@Override" annotation above this method signature(ñíÑ 
+Q
+java:S1161“":Add the "@Override" annotation above this method signature(É‚ò‘
+P
+java:S1161³":Add the "@Override" annotation above this method signature(…Ö—+
+P
+java:S1854æ"9Remove this useless assignment to local variable "model".(‘¾Ÿ§
+P
+java:S1117æ"9Rename "model" which hides the field declared at line 97.(‘¾Ÿ§
+A
+java:S1481æ"*Remove this unused "model" local variable.(‘¾Ÿ§
+I
+java:S1135­"2Complete the task associated to this TODO comment.(¤Š“
+R
+java:S11284"<Remove this unused import 'com.google.common.base.Function'.(ÓÉ·ü
+Y
+java:S11285"CRemove this unused import 'com.google.common.collect.Collections2'.(Ó»·ƒ

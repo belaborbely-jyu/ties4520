@@ -1,0 +1,144 @@
+
+[	java:S112®"FDefine and throw a dedicated exception instead of using a generic one.(¬¦1
+[	java:S112·"FDefine and throw a dedicated exception instead of using a generic one.(‰Æáe
+a	java:S112»"FDefine and throw a dedicated exception instead of using a generic one.(ó×¾¢üÿÿÿÿ
+p
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜ì…ø
+p
+java:S2293Ö"YReplace the type specification in this constructor call with the diamond operator ("<>").(åè©É
+]
+java:S1192ô"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(İÜ¾
+t	java:S135Ü"YReduce the total number of break and continue statements in this loop to use at most one.(×Ÿœ†ıÿÿÿÿ
+t	java:S135¢	"YReduce the total number of break and continue statements in this loop to use at most one.(×Ÿœ†ıÿÿÿÿ
+o	java:S135¹
+"YReduce the total number of break and continue statements in this loop to use at most one.(¼Î©Î
+o	java:S135Î
+"YReduce the total number of break and continue statements in this loop to use at most one.(¼Î©Î
+Q
+java:S1141Ñ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141ì"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141–"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141²"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141á
+"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g	java:S117Û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æşü
+8
+java:S1643Ä	"Use a StringBuilder instead.(áºáºşÿÿÿÿ
+3
+java:S1643Ô	"Use a StringBuilder instead.(õÇüë
+3
+java:S1643Ù	"Use a StringBuilder instead.(õÇüë
+8
+java:S1643ó	"Use a StringBuilder instead.(“ºÕãøÿÿÿÿ
+F
+java:S5411¹"*Use the primitive boolean expression here.(õş×ùÿÿÿÿ
+X
+java:S2259í"AA "NullPointerException" could be thrown; "rdg" is nullable here.(ë”×
+p	java:S115»"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïëÁ•
+\
+java:S1124»"EReorder the modifiers to comply with the Java Language Specification.(ïëÁ•
+Q
+java:S1161ì":Add the "@Override" annotation above this method signature(Ê±ÃÉ
+8
+java:S1116á"Remove this empty statement.(ô‚­ÿÿÿÿÿ
+i
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(âô“¼
+B
+java:S1075„"&Remove this hard-coded path-delimiter.(äŸ½åùÿÿÿÿ
+i
+java:S3776Ì"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(›ş­•
+V
+java:S1854ƒ":Remove this useless assignment to local variable "errMsg".(ŸÙå©ûÿÿÿÿ
+W	java:S125Ë"<This block of commented-out lines of code should be removed.(ÂÛ¨Óÿÿÿÿÿ
+y
+java:S1989Ğ"]Handle the following exception that could be thrown by "initializeRequest": ServletException.(³õÏ™üÿÿÿÿ
+l
+java:S1989Ó"UHandle the following exception that could be thrown by "handleGet": ServletException.(¯öÌß
+A
+java:S1181£"%Catch Exception instead of Throwable.(—×øâüÿÿÿÿ
+X
+java:S1989¨"AHandle the "ServletException" thrown here in a "try/catch" block.(Œç 
+i
+java:S3776À"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(³œ­
+y
+java:S1989Æ"]Handle the following exception that could be thrown by "initializeRequest": ServletException.(³õÏ™üÿÿÿÿ
+A
+java:S1181İ"%Catch Exception instead of Throwable.(—×øâüÿÿÿÿ
+D
+java:S1481Î"(Remove this unused "rrg" local variable.(¹ïÑıÿÿÿÿ
+A
+java:S1181Ù"%Catch Exception instead of Throwable.(—×øâüÿÿÿÿ
+A
+java:S1181ò"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+U
+java:S4719÷"9Replace charset name argument with StandardCharsets.UTF_8(ŒÈ™úøÿÿÿÿ
+F
+java:S2093ì"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+<
+java:S1181¤"%Catch Exception instead of Throwable.(¼…Æ
+W	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ìõûÿÿÿÿ
+{
+java:S1989»"_Handle the following exception that could be thrown by "setProperty": IllegalArgumentException.(è—Íúÿÿÿÿ
+v
+java:S1989Â"_Handle the following exception that could be thrown by "getResourceGraph": DataAccessException.(–Ê©¦
+‡
+java:S1989Ò"pHandle the following exceptions that could be thrown by "invokeRemoteService": IOException, ValidationException.(®¬î¬
+t
+java:S1989Ö"XHandle the following exception that could be thrown by "serializeResponse": IOException.(äñı•úÿÿÿÿ
+l
+java:S1989Ú"PHandle the following exception that could be thrown by "sendError": IOException.(ÄÏà¥üÿÿÿÿ
+X
+java:S1989Ş"AHandle the "ServletException" thrown here in a "try/catch" block.(Œç 
+3
+java:S1116å"Remove this empty statement.(İë˜
+C
+java:S1125’"'Remove the unnecessary boolean literal.(”‚«±üÿÿÿÿ
+3
+java:S1116Å"Remove this empty statement.(İë˜
+A
+java:S1181ë"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+3
+java:S1116÷"Remove this empty statement.(İë˜
+B
+java:S1905œ"&Remove this unnecessary cast to "Map".(œ¯í“ùÿÿÿÿ
+3
+java:S1116"Remove this empty statement.(İë˜
+P
+java:S2864Ü"4Iterate over the "entrySet" instead of the "keySet".(×Ÿœ†ıÿÿÿÿ
+n
+java:S3776’	"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(Å…ªÕúÿÿÿÿ
+C
+java:S1659™	",Declare "resourcePrefix" on a separate line.(Â‚È§
+A
+java:S1197Â	"*Move the array designators [] to the type.(¾«¯„
+3
+java:S1116„
+"Remove this empty statement.(İë˜
+n
+java:S3776³
+"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(â“°íÿÿÿÿÿ
+7
+java:S3626ü
+"Remove this redundant jump.(İ§ò‰ùÿÿÿÿ
+7
+java:S3626”"Remove this redundant jump.(€¨• ÿÿÿÿÿ
+2
+java:S1116å
+"Remove this empty statement.(Í¬ºw
+`
+java:S4201¶"IRemove this unnecessary null check; "instanceof" returns false for nulls.(è™ë
+E
+java:S1172É".Remove this unused method parameter "request".(²×ùÉ
+X
+java:S1126¶"AReplace this if-then-else statement by a single return statement.(‘Øû»
+W	java:S125Ö"<This block of commented-out lines of code should be removed.(†ÓÒıÿÿÿÿ
+o
+java:S2226µ"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ìÿ™»
+o
+java:S2226Â"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ˆ—ßŞ

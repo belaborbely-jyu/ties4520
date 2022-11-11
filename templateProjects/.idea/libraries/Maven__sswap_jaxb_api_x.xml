@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: sswap:jaxb-api:x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jaxb-api/x/jaxb-api-x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jaxb-api/x/jaxb-api-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/jaxb-api/x/jaxb-api-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

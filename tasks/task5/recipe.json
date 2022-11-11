@@ -1,0 +1,488 @@
+[
+    {
+      "@id": "_:N6b53a8fbb4a5433a8c113644a9b45192",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "garlic, minced or grated"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "clove"
+        }
+      ]
+    },
+    {
+      "@id": "_:N9bf1faa54a974adca91d7ce47d6c96b6",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "Coarse sea salt"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ne0895b7903b54ffea20cf83d03c5c93c",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "egg, beaten"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4c48b0e3a932486eaf7a9fac7d8a91e2",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "crushed red pepper flakes"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "teaspoon"
+        }
+      ]
+    },
+    {
+      "@id": "_:N01d697cd5e8944a5a219f5f05a402933",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "salted butter"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "stick (1/2 cup)"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc1bc65999e384aea9f086290ac3bc4f7",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "shredded mozzarella cheese"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cup"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nfa3d8458420748bc904aa6847a10ac91",
+      "@type": [
+        "http://schema.org/NutritionInformation"
+      ]
+    },
+    {
+      "@id": "_:Nfce1fa2139f0461e9ceb41795a97f757",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "frozen chopped spinach, thawed and squeezed dry of excess water"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cup"
+        }
+      ]
+    },
+    {
+      "@id": "_:N223c05b5d6db482391de081747e8bdc0",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "jar marinated artichokes, chopped"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "(6.7 ounce)"
+        }
+      ]
+    },
+    {
+      "@id": "_:N54d945ce07ff4355865f93b653908719",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "warm water"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cup"
+        }
+      ]
+    },
+    {
+      "@id": "_:Na9fc6da02bd54607846708640af8876c",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "2/3"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "baking soda"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#notes": [
+        {
+          "@value": "(for boiling the pretzels)"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cups"
+        }
+      ]
+    },
+    {
+      "@id": "_:N2f5933b53ef64c5ea5586f1f478c8bde",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "light brown sugar"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "tablespoons"
+        }
+      ]
+    },
+    {
+      "@id": "_:Ncc7001a8ce3f49bc951f70192e1fc494",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1 1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "sea salt or kosher salt"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "teaspoons"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf8f7b2a5f1874cdca38509c7e3c97d86",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "wheat beer, at room temperature"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cup"
+        }
+      ]
+    },
+    {
+      "@id": "_:N4789e765b57f4242a8a9cee18c80626d",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Recipe"
+      ],
+      "http://schema.org/author": [
+        {
+          "@id": "https://www.halfbakedharvest.com/about-me/"
+        }
+      ],
+      "http://schema.org/calories": [
+        {
+          "@value": "518"
+        }
+      ],
+      "http://schema.org/cookTime": [
+        {
+          "@value": "PT30M"
+        },
+        {
+          "@value": "PT2H"
+        }
+      ],
+      "http://schema.org/description": [
+        {
+          "@value": "Recipe for Spinach and Artichoke Stuffed Soft Pretzels. Homemade soft pretzel dough, stuffed with a cheesy spinach and artichoke dip, and shaped into a pretzel."
+        }
+      ],
+      "http://schema.org/name": [
+        {
+          "@value": "Spinach and Artichoke Stuffed Soft Pretzels"
+        }
+      ],
+      "http://schema.org/prepTime": [
+        {
+          "@value": "PT30M"
+        }
+      ],
+      "http://schema.org/publishDate": [
+        {
+          "@value": "2018-12-27T02:00:33+00:00"
+        }
+      ],
+      "http://schema.org/recipeCategory": [
+        {
+          "@value": "Bread"
+        }
+      ],
+      "http://schema.org/recipeCuisine": [
+        {
+          "@value": "American"
+        }
+      ],
+      "http://schema.org/recipeInstructions": [
+        {
+          "@value": "Combine the water, brown sugar and yeast in the bowl of a stand mixer and mix with the dough hook until combined. Let sit for 5 minutes."
+        },
+        {
+          "@value": "Remove pretzels from oven and let cool 5 minutes. Serve and enjoy! If needed, the pretzels can be reheated in a 350 degrees F. for 15 minutes."
+        },
+        {
+          "@value": "Meanwhile, make the dip. In a medium bowl, combine the cream cheese, mozzarella, parmesan, garlic, and a pinch of crushed red pepper and salt. Stir in the spinach and artichokes."
+        },
+        {
+          "@value": "Add the beer, melted butter, salt, and flour to the mixture and mix on low-speed until combined. Increase the speed to medium and continue kneading until the dough is smooth and begins to pull away from the sides of the bowl, about 3 to 4 minutes. If the dough appears too wet, add additional flour, 1 tablespoon at a time. Remove the dough from the bowl, place on a flat surface and knead into a ball with your hands. Coat a large bowl with oil, add the dough and turn to coat with the oil. Cover with a clean towel or plastic wrap and place in a warm spot until the dough doubles in size. This will take about 1 hour."
+        },
+        {
+          "@value": "Divide the pretzel dough into 8 equal balls and roll each out into a rectangle (about 11x3 inches). Spread about 1 1/2 tablespoons spinach and artichoke dip along the length of each piece. Starting with the opposite side, roll the dough up into a log, enclosing the toppings inside. Pinch the seams together and then very gently roll the dough with your hands to form an even cylinder and fully enclose the filling (see above photos)."
+        },
+        {
+          "@value": "Preheat the oven to 425 degrees F. Bring a large pot of water to a boil."
+        },
+        {
+          "@value": "To shape into pretzels, take the right side and cross over to the left. Cross right to left again and flip up. Slowly add the baking soda to the boiling water. Boil the pretzels in the water, 2 at a time for 30 seconds, splashing the tops with the warmed water using a spoon. Remove with a large flat slotted spatula or a spider. Line two baking sheets with parchment paper placing 4 pretzels on each. Brush the tops with the beaten egg wash and season liberally with sea salt. Bake for 15 to 18 minutes or until pretzels are golden brown."
+        }
+      ],
+      "http://schema.org/recipeYield": [
+        {
+          "@value": "8"
+        }
+      ],
+      "http://schema.org/servingSize": [
+        {
+          "@value": "\n\t\t\t\t\t\tServing size:\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t1\n\t\t\t\t\t\t\teach\n\t\t\t\t\t\t\n\t\t\t\t\t"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gCarbohydrateContent": [
+        {
+          "@value": "60"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gFatContent": [
+        {
+          "@value": "23"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gFiberContent": [
+        {
+          "@value": "5"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gProteinContent": [
+        {
+          "@value": "17"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gSaturatedFatContent": [
+        {
+          "@value": "12"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#gSugarContent": [
+        {
+          "@value": "4"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#mgCholesterolContent": [
+        {
+          "@value": "77"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#mgSodiumContent": [
+        {
+          "@value": "1385"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "Giant Pretzels"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nf7cd2997dc52468fa99ef51a8612b0e6",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "4 1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "all-purpose flour"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cups"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc49e7cf9899b4f79950f6b760a8f5e21",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "4"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "cream cheese"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "ounces"
+        }
+      ]
+    },
+    {
+      "@id": "_:N54c53589e93142efa4eeda47d66fed51",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "1/2"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "grated parmesan cheese"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "cup"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nc56829e20e7740cabf2cb5049e0e8d7f",
+      "@type": [
+        "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#Ingredient"
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#amount": [
+        {
+          "@value": "2 1/4"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#name": [
+        {
+          "@value": "active dry yeast"
+        }
+      ],
+      "http://users.jyu.fi/~borbely/ties4520/task5/recipes.owl#unit": [
+        {
+          "@value": "teaspoons"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,11 @@
+@prefix : <http://www.semanticweb.org/bela/ontologies/ties4520_task3#> .
+@prefix onto: <https://mypage.me/myOntologies/myOntology.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+:FinnaDotFi rdf:type owl:NamedIndividual , onto:ComputerBasedInformationSystem .
+:GoogleMaps rdf:type owl:NamedIndividual , onto:ComputerBasedInformationSystem .
+:KoneOyj rdf:type owl:NamedIndividual , onto:Enterprise .
+:LenovoThinkPadT480 rdf:type owl:NamedIndividual , onto:ComputerSystem .
+:SAP rdf:type owl:NamedIndividual , onto:EnterpriseResourcePlanningSystem .
+:UnitedNation rdf:type owl:NamedIndividual , onto:Organisation .

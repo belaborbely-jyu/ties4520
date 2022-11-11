@@ -1,0 +1,117 @@
+@prefix myont: <http://www.myontology.com/recipe#> .
+@prefix schema: <http://schema.org/> .
+
+[] a myont:Ingredient ;
+    myont:amount "1/2" ;
+    myont:name "frozen chopped spinach, thawed and squeezed dry of excess water" ;
+    myont:unit "cup" .
+
+[] a myont:Ingredient ;
+    myont:amount "1/2" ;
+    myont:name "warm water" ;
+    myont:unit "cup" .
+
+[] a myont:Ingredient ;
+    myont:amount "4 1/2" ;
+    myont:name "all-purpose flour" ;
+    myont:unit "cups" .
+
+[] a myont:Ingredient ;
+    myont:amount "1" ;
+    myont:name "salted butter" ;
+    myont:unit "stick (1/2 cup)" .
+
+[] a myont:Ingredient ;
+    myont:amount "2" ;
+    myont:name "light brown sugar" ;
+    myont:unit "tablespoons" .
+
+[] a myont:Ingredient ;
+    myont:amount "1/2" ;
+    myont:name "shredded mozzarella cheese" ;
+    myont:unit "cup" .
+
+[] a myont:Ingredient ;
+    myont:amount "2/3" ;
+    myont:name "baking soda" ;
+    myont:notes "(for boiling the pretzels)" ;
+    myont:unit "cups" .
+
+[] a myont:Ingredient ;
+    myont:amount "1/2" ;
+    myont:name "grated parmesan cheese" ;
+    myont:unit "cup" .
+
+[] a myont:Ingredient ;
+    myont:amount "1/2" ;
+    myont:name "crushed red pepper flakes" ;
+    myont:unit "teaspoon" .
+
+[] a myont:Ingredient ;
+    myont:amount "1 1/2" ;
+    myont:name "sea salt or kosher salt" ;
+    myont:unit "teaspoons" .
+
+[] a myont:Ingredient ;
+    myont:amount "1" ;
+    myont:name "egg, beaten" .
+
+[] a myont:Ingredient ;
+    myont:amount "2 1/4" ;
+    myont:name "active dry yeast" ;
+    myont:unit "teaspoons" .
+
+[] a myont:Recipe ;
+    schema:author <https://www.halfbakedharvest.com/about-me/> ;
+    schema:cookTime "PT2H",
+        "PT30M" ;
+    schema:description "Recipe for Spinach and Artichoke Stuffed Soft Pretzels. Homemade soft pretzel dough, stuffed with a cheesy spinach and artichoke dip, and shaped into a pretzel." ;
+    schema:name "Spinach and Artichoke Stuffed Soft Pretzels" ;
+    schema:prepTime "PT30M" ;
+    schema:publishDate "2018-12-27T02:00:33+00:00" ;
+    schema:recipeCategory "Bread" ;
+    schema:recipeCuisine "American" ;
+    schema:recipeInstructions "Add the beer, melted butter, salt, and flour to the mixture and mix on low-speed until combined. Increase the speed to medium and continue kneading until the dough is smooth and begins to pull away from the sides of the bowl, about 3 to 4 minutes. If the dough appears too wet, add additional flour, 1 tablespoon at a time. Remove the dough from the bowl, place on a flat surface and knead into a ball with your hands. Coat a large bowl with oil, add the dough and turn to coat with the oil. Cover with a clean towel or plastic wrap and place in a warm spot until the dough doubles in size. This will take about 1 hour.",
+        "Combine the water, brown sugar and yeast in the bowl of a stand mixer and mix with the dough hook until combined. Let sit for 5 minutes.",
+        "Divide the pretzel dough into 8 equal balls and roll each out into a rectangle (about 11x3 inches). Spread about 1 1/2 tablespoons spinach and artichoke dip along the length of each piece. Starting with the opposite side, roll the dough up into a log, enclosing the toppings inside. Pinch the seams together and then very gently roll the dough with your hands to form an even cylinder and fully enclose the filling (see above photos).",
+        "Meanwhile, make the dip. In a medium bowl, combine the cream cheese, mozzarella, parmesan, garlic, and a pinch of crushed red pepper and salt. Stir in the spinach and artichokes.",
+        "Preheat the oven to 425 degrees F. Bring a large pot of water to a boil.",
+        "Remove pretzels from oven and let cool 5 minutes. Serve and enjoy! If needed, the pretzels can be reheated in a 350 degrees F. for 15 minutes.",
+        "To shape into pretzels, take the right side and cross over to the left. Cross right to left again and flip up. Slowly add the baking soda to the boiling water. Boil the pretzels in the water, 2 at a time for 30 seconds, splashing the tops with the warmed water using a spoon. Remove with a large flat slotted spatula or a spider. Line two baking sheets with parchment paper placing 4 pretzels on each. Brush the tops with the beaten egg wash and season liberally with sea salt. Bake for 15 to 18 minutes or until pretzels are golden brown." ;
+    schema:recipeYield "8" ;
+    myont:unit "Giant Pretzels" .
+
+[] a myont:Ingredient ;
+    myont:amount "1" ;
+    myont:name "wheat beer, at room temperature" ;
+    myont:unit "cup" .
+
+[] a myont:Ingredient ;
+    myont:amount "1" ;
+    myont:name "jar marinated artichokes, chopped" ;
+    myont:unit "(6.7 ounce)" .
+
+[] a myont:Ingredient ;
+    myont:amount "4" ;
+    myont:name "cream cheese" ;
+    myont:unit "ounces" .
+
+[] a myont:Ingredient ;
+    myont:amount "1" ;
+    myont:name "garlic, minced or grated" ;
+    myont:unit "clove" .
+
+[] a myont:Ingredient ;
+    myont:name "Coarse sea salt" .
+
+[] a schema:NutritionInformation ;
+    schema:SaturatedFatContent "12" ;
+    schema:calories "518" ;
+    schema:carbohydrateContent "60" ;
+    schema:cholesterolContent "77" ;
+    schema:fatContent "23" ;
+    schema:fiberContent "5" ;
+    schema:proteinContent "17" ;
+    schema:servingSize "1" ;
+    schema:sodiumContent "1385" ;
+    schema:sugarContent "4" .

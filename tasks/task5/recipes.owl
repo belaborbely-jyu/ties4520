@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@base <http://www.myontology.com/recipe> .
+
+<#> a owl:Ontology .
+
+<#Recipe> a owl:Class ;
+    rdfs:subClassOf schema:Recipe .
+
+<#hasIngredient> a owl:ObjectProperty ;
+    rdfs:domain <#Recipe> ;
+    rdfs:range <#Ingredient> .
+
+<#Ingredient> a owl:Class .
+
+<#hasAmount> a owl:DatatypeProperty ;
+    rdfs:domain <#Ingredient> ;
+    rdfs:range xsd:float .
+
+<#hasUnit> a owl:DatatypeProperty ;
+    rdfs:domain <#Ingredient> ;
+    rdfs:range xsd:string .
+
+<#hasAmount> a owl:DatatypeProperty ;
+    rdfs:domain <#Ingredient> ;
+    rdfs:range xsd:float .

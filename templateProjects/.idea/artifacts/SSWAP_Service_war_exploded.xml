@@ -1,0 +1,89 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSWAP_Service:war exploded">
+    <output-path>$PROJECT_DIR$/SSWAP_example/SSWAP_Service/target/SSWAP_Service</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>SSWAP_Service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSWAP_Service" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="sswap-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sswap" />
+          </element>
+          <element id="library" level="project" name="Maven: sswap:cp-common-openrdf:2.0" />
+          <element id="library" level="project" name="Maven: sswap:cp-common-utils-1.1:x" />
+          <element id="library" level="project" name="Maven: sswap:cp-common-utils-3.1.1:x" />
+          <element id="library" level="project" name="Maven: sswap:cp-common-fourstore:0.3.1" />
+          <element id="library" level="project" name="Maven: sswap:aopalliance:x" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.28.0-GA" />
+          <element id="library" level="project" name="Maven: sswap:ejb3-persistence:x" />
+          <element id="library" level="project" name="Maven: sswap:log4j:1.2.13" />
+          <element id="library" level="project" name="Maven: sswap:antlr-runtime:3.2" />
+          <element id="library" level="project" name="Maven: sswap:jaxb-api:x" />
+          <element id="library" level="project" name="Maven: sswap:arq:2.8.7" />
+          <element id="library" level="project" name="Maven: com.ibm.icu:icu4j:72.1" />
+          <element id="library" level="project" name="Maven: sswap:iri:0.8" />
+          <element id="library" level="project" name="Maven: sswap:jena:2.6.4" />
+          <element id="library" level="project" name="Maven: sswap:lucene-core:2.3.1" />
+          <element id="library" level="project" name="Maven: sswap:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: sswap:wstx-asl:3.2.9" />
+          <element id="library" level="project" name="Maven: sswap:xercesImpl:2.7.1" />
+          <element id="library" level="project" name="Maven: sswap:jgrapht:jdk1.5" />
+          <element id="library" level="project" name="Maven: sswap:owlapi-bin:x" />
+          <element id="library" level="project" name="Maven: sswap:owlapi-src:x" />
+          <element id="library" level="project" name="Maven: sswap:owlapiv3-bin:x" />
+          <element id="library" level="project" name="Maven: sswap:owlapiv3-src:x" />
+          <element id="library" level="project" name="Maven: sswap:relaxngDatatype:x" />
+          <element id="library" level="project" name="Maven: sswap:xsdlib:x" />
+          <element id="library" level="project" name="Maven: sswap:aterm-java:1.6" />
+          <element id="library" level="project" name="Maven: sswap:pellet-datatypes:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-dig:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-el:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-explanation:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-jena:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-modularity:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-owlapi:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-owlapiv3:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-pellint:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-query:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-rules:x" />
+          <element id="library" level="project" name="Maven: sswap:pellet-test:x" />
+          <element id="library" level="project" name="Maven: sswap:commons-codec:1.4" />
+          <element id="library" level="project" name="Maven: sswap:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: sswap:sdb:1.3.3" />
+          <element id="library" level="project" name="Maven: sswap:json:x" />
+          <element id="library" level="project" name="Maven: sswap:JSAP:2.1" />
+          <element id="library" level="project" name="Maven: sswap:pellet-core:x" />
+          <element id="library" level="project" name="Maven: sswap:guice:3.0" />
+          <element id="library" level="project" name="Maven: sswap:guice-assistedinject:3.0" />
+          <element id="library" level="project" name="Maven: sswap:guice-jmx:3.0" />
+          <element id="library" level="project" name="Maven: sswap:guice-multibindings:3.0" />
+          <element id="library" level="project" name="Maven: sswap:guice-throwingproviders:3.0" />
+          <element id="library" level="project" name="Maven: sswap:javax.inject:x" />
+          <element id="library" level="project" name="Maven: sswap:junit:4.5" />
+          <element id="library" level="project" name="Maven: sswap:empire:0.8.3" />
+          <element id="library" level="project" name="Maven: sswap:empire-jena:0.8.3" />
+          <element id="library" level="project" name="Maven: sswap:empire-sesame:0.8.3" />
+          <element id="library" level="project" name="Maven: sswap:openrdf-sesame:2.7.7" />
+          <element id="library" level="project" name="Maven: sswap:guava:15.0" />
+          <element id="library" level="project" name="Maven: sswap:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: sswap:ehcache:2.8.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/SSWAP_example/SSWAP_Service/target/SSWAP_Service/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SSWAP_Service/web/Web" />
+    </root>
+  </artifact>
+</component>

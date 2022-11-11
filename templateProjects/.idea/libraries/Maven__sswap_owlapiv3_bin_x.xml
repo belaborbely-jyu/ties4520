@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: sswap:owlapiv3-bin:x">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/owlapiv3-bin/x/owlapiv3-bin-x.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/owlapiv3-bin/x/owlapiv3-bin-x-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/sswap/owlapiv3-bin/x/owlapiv3-bin-x-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

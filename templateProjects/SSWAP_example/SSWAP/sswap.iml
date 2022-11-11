@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:cp-common-openrdf:2.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:cp-common-utils-1.1:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:cp-common-utils-3.1.1:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:cp-common-fourstore:0.3.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:aopalliance:x" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.28.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: sswap:ejb3-persistence:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:log4j:1.2.13" level="project" />
+    <orderEntry type="library" name="Maven: sswap:antlr-runtime:3.2" level="project" />
+    <orderEntry type="library" name="Maven: sswap:jaxb-api:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:arq:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:72.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:iri:0.8" level="project" />
+    <orderEntry type="library" name="Maven: sswap:jena:2.6.4" level="project" />
+    <orderEntry type="library" name="Maven: sswap:lucene-core:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:wstx-asl:3.2.9" level="project" />
+    <orderEntry type="library" name="Maven: sswap:xercesImpl:2.7.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:jgrapht:jdk1.5" level="project" />
+    <orderEntry type="library" name="Maven: sswap:owlapi-bin:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:owlapi-src:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:owlapiv3-bin:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:owlapiv3-src:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:relaxngDatatype:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:xsdlib:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:aterm-java:1.6" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-datatypes:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-dig:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-el:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-explanation:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-jena:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-modularity:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-owlapi:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-owlapiv3:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-pellint:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-query:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-rules:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-test:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:commons-codec:1.4" level="project" />
+    <orderEntry type="library" name="Maven: sswap:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:sdb:1.3.3" level="project" />
+    <orderEntry type="library" name="Maven: sswap:json:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:JSAP:2.1" level="project" />
+    <orderEntry type="library" name="Maven: sswap:pellet-core:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guice:3.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guice-assistedinject:3.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guice-jmx:3.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guice-multibindings:3.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guice-throwingproviders:3.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:javax.inject:x" level="project" />
+    <orderEntry type="library" name="Maven: sswap:junit:4.5" level="project" />
+    <orderEntry type="library" name="Maven: sswap:empire:0.8.3" level="project" />
+    <orderEntry type="library" name="Maven: sswap:empire-jena:0.8.3" level="project" />
+    <orderEntry type="library" name="Maven: sswap:empire-sesame:0.8.3" level="project" />
+    <orderEntry type="library" name="Maven: sswap:openrdf-sesame:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: sswap:guava:15.0" level="project" />
+    <orderEntry type="library" name="Maven: sswap:jcl-over-slf4j:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: sswap:ehcache:2.8.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.7" level="project" />
+  </component>
+</module>

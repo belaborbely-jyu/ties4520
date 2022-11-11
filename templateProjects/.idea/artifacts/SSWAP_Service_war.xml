@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSWAP_Service:war">
+    <output-path>$PROJECT_DIR$/SSWAP_example/SSWAP_Service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SSWAP_Service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SSWAP_Service.war">
+      <element id="artifact" artifact-name="SSWAP_Service:war exploded" />
+    </root>
+  </artifact>
+</component>

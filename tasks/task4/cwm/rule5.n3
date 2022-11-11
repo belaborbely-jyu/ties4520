@@ -1,0 +1,6 @@
+@prefix ex: <http://www.smith-family.com/familyOntology.owl#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#>.
+
+{ ?x ex:hasParent ?y . ?x ex:hasParent ?v . ?y ex:hasSpouse ?z . ?y  log:notEqualTo ?v . ?y log:notEqualTo ?z . ?v log:notEqualTo ?z }  => { ?z ex:hasStepChild ?x } .

@@ -1,0 +1,12 @@
+PREFIX accomodation: <http://localhost:8888/service/ontology.ttl#>
+
+SELECT
+DISTINCT ?id ?booking ?cottage ?bookerName ?startDate ?endDate
+WHERE {
+    ?booking a accomodation:Booking .
+    ?booking accomodation:hasId ?id .
+    ?booking accomodation:hasBookerName ?bookerName .
+    ?booking accomodation:hasCottage ?cottage .
+    ?booking accomodation:hasStartDate ?startDate .
+    ?booking accomodation:hasEndDate ?endDate .
+}

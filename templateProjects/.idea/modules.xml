@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSWAP_example/SSWAP_Client/SSWAP_Client.iml" filepath="$PROJECT_DIR$/SSWAP_example/SSWAP_Client/SSWAP_Client.iml" group="sswap_example and modules" />
+      <module fileurl="file://$PROJECT_DIR$/SSWAP_example/SSWAP_Service/SSWAP_Service.iml" filepath="$PROJECT_DIR$/SSWAP_example/SSWAP_Service/SSWAP_Service.iml" group="sswap_example and modules" />
+      <module fileurl="file://$PROJECT_DIR$/SW_project/SW_project.iml" filepath="$PROJECT_DIR$/SW_project/SW_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSWAP_example/SSWAP/sswap.iml" filepath="$PROJECT_DIR$/SSWAP_example/SSWAP/sswap.iml" group="sswap_example and modules" />
+      <module fileurl="file://$PROJECT_DIR$/SSWAP_example/sswap_example.iml" filepath="$PROJECT_DIR$/SSWAP_example/sswap_example.iml" group="sswap_example and modules" />
+      <module fileurl="file://$PROJECT_DIR$/tasks.iml" filepath="$PROJECT_DIR$/tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ties4520.iml" filepath="$PROJECT_DIR$/ties4520.iml" />
+    </modules>
+  </component>
+</project>

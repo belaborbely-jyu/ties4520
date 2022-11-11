@@ -1,0 +1,164 @@
+@prefix : <http://www.semanticweb.org/bela/ontologies/ties4520_task3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/bela/ontologies/ties4520_task3> .
+
+<http://www.semanticweb.org/bela/ontologies/ties4520_task3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+owl:topObjectProperty rdfs:domain owl:Thing 
+     ; rdfs:range :Element .
+ 
+:hasFunction rdf:type owl:ObjectProperty 
+     ; rdfs:subPropertyOf owl:topObjectProperty 
+     ; rdfs:domain owl:Thing 
+     ; rdfs:range :Function .
+ 
+:hasPart rdf:type owl:ObjectProperty 
+     ; rdfs:subPropertyOf owl:topObjectProperty 
+     ; rdfs:domain owl:Thing 
+     ; rdfs:range [ 
+         rdf:type owl:Class 
+         ; owl:unionOf ( :Component :Element :System )
+     ] .
+ 
+:hasSubSystem rdf:type owl:ObjectProperty 
+     ; rdfs:subPropertyOf owl:topObjectProperty 
+     ; rdfs:domain :System
+     ; rdfs:range :System .
+ 
+:hasSuperSystem rdf:type owl:ObjectProperty 
+     ; rdfs:domain :System 
+     ; rdfs:range :System .
+ 
+:useInformationSystem rdf:type owl:ObjectProperty 
+     ; rdfs:subPropertyOf owl:topObjectProperty .
+ 
+#################################################################
+#    Data properties
+#################################################################
+
+:hasComplexityLevel rdf:type owl:DatatypeProperty 
+    ; rdfs:subPropertyOf owl:topDataProperty 
+    ; rdfs:domain :System 
+    ; rdfs:range xsd:int .
+
+:hasDeveloper rdf:type owl:DatatypeProperty 
+    ; rdfs:subPropertyOf owl:topDataProperty .
+
+:hasGranularityLevel rdf:type owl:DatatypeProperty 
+    ; rdfs:subPropertyOf owl:topDataProperty 
+    ; rdfs:domain :System 
+    ; rdfs:range xsd:int .
+
+:hasVendor rdf:type owl:DatatypeProperty 
+    ; rdfs:subPropertyOf owl:topDataProperty 
+    ; rdfs:domain :ComputerSystem 
+    ; rdfs:range xsd:string .
+
+:hasVersionNumber rdf:type owl:DatatypeProperty 
+    ; rdfs:domain :ComputerBasedInformationSystem 
+    ; rdfs:range xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+:Component rdf:type owl:Class .
+
+:ComputerBasedInformationSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :InformationSystem 
+    ; owl:disjointWith :NonComputerBasedInformationSystem .
+
+:ComputerBasedInformationSystemComponent rdf:type owl:Class 
+    ; rdfs:subClassOf :Component 
+    ;owl:disjointUnionOf ( :Data :Hardware :Network :People :Procedure :Software ) .
+
+:ComputerSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :System .
+
+:Data rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:DecisionSupportSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :InformationSystem .
+
+:DigitalMap rdf:type owl:Class 
+    ; owl:equivalentClass  [ 
+        owl:intersectionOf ( :ComputerBasedInformationSystem :GeographicInformationSystem ) 
+        ; rdf:type owl:Class 
+    ] 
+    ; rdfs:subClassOf :ComputerBasedInformationSystem .
+
+:Element rdf:type owl:Class .
+
+:Enterprise rdf:type owl:Class 
+    ; rdfs:subClassOf :Organisation .
+
+:EnterpriseResourcePlanningSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :InformationSystem .
+
+:ExpertSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :InformationSystem .
+
+:Function rdf:type owl:Class .
+
+:GeographicInformationSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :InformationSystem .
+
+:Hardware rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:InformationSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :System .
+
+:LibraryCardCatalogSystem rdf:type owl:Class 
+    ; rdfs:subClassOf :NonComputerBasedInformationSystem .
+
+:Network rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:NonComputerBasedInformationSystem rdf:type owl:Class ; rdfs:subClassOf :InformationSystem .
+
+:Organisation rdf:type owl:Class .
+
+:PaperMap rdf:type owl:Class 
+    ; owl:equivalentClass [ 
+        owl:intersectionOf ( :GeographicInformationSystem :NonComputerBasedInformationSystem ) 
+        ; rdf:type owl:Class 
+        ] 
+    ; rdfs:subClassOf :NonComputerBasedInformationSystem .
+
+:People rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:Procedure rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:Software rdf:type owl:Class 
+    ; rdfs:subClassOf :Component .
+
+:System rdf:type owl:Class 
+    ; owl:equivalentClass [ 
+        rdf:type owl:Restriction 
+        ; owl:onProperty :hasFunction 
+        ; owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger 
+        ; owl:onClass :Function
+    ] .
+
+#################################################################
+#    Individuals
+#################################################################
+
+:FinnaDotFi rdf:type owl:NamedIndividual , :ComputerBasedInformationSystem .
+:GoogleMaps rdf:type owl:NamedIndividual , :ComputerBasedInformationSystem .
+:KoneOyj rdf:type owl:NamedIndividual , :Enterprise .
+:LenovoThinkPadT480 rdf:type owl:NamedIndividual ,  :ComputerSystem .
+:SAP rdf:type owl:NamedIndividual , :EnterpriseResourcePlanningSystem .
+:UnitedNation rdf:type owl:NamedIndividual , :Organisation .

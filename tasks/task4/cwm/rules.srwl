@@ -1,0 +1,8 @@
+hasPet(?x, ?y) -> PetLover(?x)
+hasSpouse(?x, ?y) ^ DeadPerson(?y) -> Widow(?x)
+hasChild(?x, ?y) -> hasParent(?y, ?x)
+hasParent(?x, ?y) ^ hasParent(?z, ?y) ^ differentFrom(?x, ?z) -> hasSibling(?x, ?z) ^ hasSibling(?z, ?x)
+hasWife(?x, ?y) -> hasHusband(?y, ?x) ^ hasSpouse(?x, ?y) ^ hasSpouse(?y, ?x)
+hasParent(?x, ?y) ^ hasParent(?y, ?z) -> hasGrandparent(?x, ?z) ^ Grandparent(?z)
+hasSibling(?x, ?y) ^ hasParent(?z, ?x) ^ hasParent(?v, ?y) -> hasCousin(?z, ?v)
+hasParent(?x, ?y) ^ hasParent(?x, ?v) ^ hasSpouse(?y, ?z) ^ differentFrom(?y, ?v) ^ differentFrom(?y, ?z) ^ differentFrom(?v, ?z) -> hasStepChild(?z, ?x)

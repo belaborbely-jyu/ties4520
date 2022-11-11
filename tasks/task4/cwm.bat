@@ -1,0 +1,1 @@
+docker run --rm --name task4 -it task4 bash 
